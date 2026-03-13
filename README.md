@@ -101,12 +101,12 @@ This represents a simplified form of **collaborative filtering**, a common recom
 | File | Description |
 |-----|-------------|
 | `data.json` | Original dataset containing users and page information |
-| `Data_set2.json` | Dataset used for recommendation algorithms |
+| `Data_set.json` | Dataset used for recommendation algorithms |
 | `cleaned_data.json` | Output dataset after data cleaning |
-| `load_and_display.py` | Loads and prints dataset contents |
+| `data.py` | Loads and prints dataset contents |
 | `data_cleaning.py` | Cleans and prepares dataset |
-| `friend_recommendation.py` | Generates friend suggestions based on mutual friends |
-| `page_recommendation.py` | Recommends pages based on shared user interests |
+| `friends_recommendation.py` | Generates friend suggestions based on mutual friends |
+| `pages_recommendation.py` | Recommends pages based on shared user interests |
 
 ---
 
@@ -191,13 +191,7 @@ Possible extensions to make the system more advanced:
 ---
 
 ## Author
-
-High school student exploring:
-
-- Python programming
-- Data science fundamentals
-- Machine learning concepts
-- System design and algorithms
+    Eamon
 
 ---
 
