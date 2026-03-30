@@ -57,7 +57,7 @@ data = {
     "pages": pages
 }
 
-with open("social_network_large.json", "w") as f:
+with open("network.json", "w") as f:
     json.dump(data, f, indent=4)
 
 print("Dataset generated successfully.")
